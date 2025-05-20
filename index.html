@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salon Fryzjerski Bella</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.jpg" alt="Logo salonu" class="logo" />
+    <h1>Salon Fryzjerski Bella</h1>
+    <p>Profesjonalne usługi fryzjerskie w centrum miasta</p>
+    <p><strong>Właścicielka: Anna Kowalska</strong></p>
+  </header>
+
+  <section class="oferta">
+    <h2>Nasza oferta</h2>
+    <ul>
+      <li>Strzyżenie damskie i męskie</li>
+      <li>Koloryzacja i balejaż</li>
+      <li>Modelowanie i stylizacja</li>
+      <li>Fryzury okolicznościowe</li>
+    </ul>
+  </section>
+
+  <section class="cennik">
+    <h2>Cennik</h2>
+    <table>
+      <tr><td>Strzyżenie damskie</td><td>60 zł</td></tr>
+      <tr><td>Strzyżenie męskie</td><td>40 zł</td></tr>
+      <tr><td>Koloryzacja</td><td>120 zł</td></tr>
+      <tr><td>Fryzura ślubna</td><td>150 zł</td></tr>
+    </table>
+  </section>
+
+  <section class="kontakt">
+    <h2>Kontakt</h2>
+    <p>📞 123 456 789</p>
+    <p>📍 ul. Kwiatowa 10, 00-000 Warszawa</p>
+    <p>✉️ kontakt@bellafryzjer.pl</p>
+
+    <form name="kontakt" method="POST" data-netlify="true" action="thankyou.html">
+      <input type="hidden" name="form-name" value="kontakt">
+      <h2>Skontaktuj się</h2>
+      <input type="text" name="imię" placeholder="Twoje imię" required><br>
+      <input type="email" name="email" placeholder="Twój email" required><br>
+      <textarea name="wiadomość" placeholder="Twoja wiadomość" required></textarea><br>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Salon Bella – Anna Kowalska. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
