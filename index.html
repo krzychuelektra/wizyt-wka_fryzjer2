@@ -41,13 +41,13 @@
     <p>📍 ul. Kwiatowa 10, 00-000 Warszawa</p>
     <p>✉️ kontakt@bellafryzjer.pl</p>
 
-    <form action="mailto:kontakt@bellafryzjer.pl" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Imię" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="message" placeholder="Wiadomość..." required></textarea>
-      <button type="submit">Wyślij wiadomość</button>
-    </form>
-  </section>
+   <form name="kontakt" method="POST" data-netlify="true">
+  <h2>Skontaktuj się</h2>
+  <input type="text" name="imię" placeholder="Twoje imię" required><br>
+  <input type="email" name="email" placeholder="Twój email" required><br>
+  <textarea name="wiadomość" placeholder="Twoja wiadomość" required></textarea><br>
+  <button type="submit">Wyślij</button>
+</form>
 
   <section class="mapa">
     <h2>Znajdź nas</h2>
